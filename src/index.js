@@ -1,1 +1,0 @@
-alert("ENKWAN DENA METU");

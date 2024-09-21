@@ -1,4 +1,44 @@
-h1,
-p {
+body {
+  background-color: rgb(227, 227, 240);
+  font-family: sans-serif;
+}
+.container {
+  background-color: white;
+  padding: 20px;
+  margin: 60px auto;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+h1 {
   text-align: center;
+}
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+}
+h2 {
+  font-size: 30px;
+  margin: 5px;
+}
+.time {
+  margin-top: 10px;
+  margin-left: 25px;
+  font-size: 28px;
+}
+.date {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
 }
