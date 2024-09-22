@@ -25,6 +25,9 @@ select {
   padding: 20px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
 }
+.city:last-child {
+  border-bottom: none;
+}
 h2 {
   font-size: 30px;
   margin: 5px;
@@ -32,10 +35,14 @@ h2 {
 .time {
   margin-top: 10px;
   margin-left: 25px;
-  font-size: 28px;
+  font-size: 30px;
+  font-weight: bold;
 }
 .date {
   color: rgba(0, 0, 0, 0.5);
+}
+.ampm {
+  font-size: small;
 }
 
 footer {
