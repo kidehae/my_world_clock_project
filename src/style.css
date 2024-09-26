@@ -6,7 +6,7 @@ body {
   background-color: white;
   padding: 20px;
   margin: 60px auto;
-  max-width: 400px;
+  max-width: 600px;
   border-radius: 8px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
@@ -35,7 +35,7 @@ h2 {
 .time {
   margin-top: 10px;
   margin-left: 25px;
-  font-size: 30px;
+  font-size: 48px;
   font-weight: bold;
 }
 .date {
