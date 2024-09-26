@@ -28,6 +28,9 @@ setInterval(updateTime, 1000);
 function dispalyTime(events) {
   if (events.target.value !== "") {
     let cityTZ = events.target.value;
+    if (cityTZ === "yourCity") {
+      cityTZ = moment.tz.guess();
+    }
     let cityInfo = moment.tz(cityTZ);
     let cityName = cityTZ.replace("_", " ").split("/");
     let newCity = document.querySelector("#myCity");
