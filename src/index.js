@@ -42,7 +42,8 @@ function dispalyTime(events) {
           <div class="time">${cityInfo.format(
             "h:mm:ss [<span class = 'ampm' >]A[</span>]"
           )}</div>
-        </div>`;
+        </div>
+        <div><a href = "/"> All cities </a> </div>`;
   }
 }
 let selectedCity = document.querySelector("#selection");
